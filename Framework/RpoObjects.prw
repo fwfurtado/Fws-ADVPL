@@ -29,7 +29,7 @@ Class	RpoObjects	From LongClassName
 	Data	nFilter
 	Data	cClassName
 
-	Method	New(cPath) Constructor
+	Method	New(cPath,nFilter) Constructor
 	
 	Method	SetObjects()
 	Method	GetObjects()
