@@ -46,8 +46,8 @@ Method New(cPath_A,cPath_B,nFilter) Class RpoCompare
 	PARAMTYPE 2 Var nFilter As NUMERIC	OPTIONAL Default 0
 
 	::cClassName	:=	"RpoCompare"
-	::oRpo_A		:=	RpoObjects():New(cPath_A)
-	::oRpo_B		:=	RpoObjects():New(cPath_B)
+	::oRpo_A		:=	RpoObjects():New(cPath_A,nFilter)
+	::oRpo_B		:=	RpoObjects():New(cPath_B,nFilter)
 
 Return
 
